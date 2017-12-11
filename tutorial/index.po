@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../Doc/tutorial/index.rst:5
 msgid "The Python Tutorial"
-msgstr ""
+msgstr "파이썬 자습서"
 
 #: ../Doc/tutorial/index.rst:7
 msgid ""
@@ -30,6 +30,10 @@ msgid ""
 "for scripting and rapid application development in many areas on most "
 "platforms."
 msgstr ""
+"파이썬은 배우기 쉽고, 강력한 프로그래밍 언어다. 효율적인 자료 구조들과, 객체 지향 프로그래밍에 "
+"대해 간단하고도 효과적인 접근법을 제공한다. 우아한 문법과 동적 타이핑(typing)은, 인터프리터적인 "
+"특징들과 더불어, 대부분의 플랫폼과 다양한 문제 영역에서 스크립팅과 빠른 응용 개발에 이상적인 환경을 "
+"제공한다."
 
 #: ../Doc/tutorial/index.rst:13
 msgid ""
@@ -40,6 +44,9 @@ msgid ""
 "third party Python modules, programs and tools, and additional "
 "documentation."
 msgstr ""
+"파이썬 인터프리터와 풍부한 표준 라이브러리는 소스코드와 바이너리 형태로 파이썬 웹 사이트, "
+"https://www.python.org/, 에서 무료로 제공되고, 자유롭게 배포할 수 있다. 같은 사이트는 "
+"제삼자들이 무료로 제공하는 확장 모듈, 프로그램, 도구, 문서들의 배포판이나 링크를 포함한다."
 
 #: ../Doc/tutorial/index.rst:19
 msgid ""
@@ -48,6 +55,8 @@ msgid ""
 "Python is also suitable as an extension language for customizable "
 "applications."
 msgstr ""
+"파이썬 인터프리터는 C 나 C++ (또는 C 에서 호출가능한 다른 언어들) 로 구현된 새 함수나 자료 "
+"구조를 쉽게 추가할 수 있다. 파이썬은 고객화 가능한 응용을 위한 확장 언어로도 적합하다."
 
 #: ../Doc/tutorial/index.rst:23
 msgid ""
@@ -56,6 +65,9 @@ msgid ""
 "interpreter handy for hands-on experience, but all examples are self-"
 "contained, so the tutorial can be read off-line as well."
 msgstr ""
+"이 학습서는 파이썬 언어와 시스템의 기본 개념과 기능들을 격식없이 소개한다. 파이썬 인터프리터를 "
+"직접 만져볼 수 있도록 돕지만, 모든 예제들이 독립적(self-contained)이기 때문에 오프라인에서 "
+"읽기에도 적합하다."
 
 #: ../Doc/tutorial/index.rst:28
 msgid ""
@@ -65,6 +77,10 @@ msgid ""
 "and :ref:`c-api-index`. There are also several books covering Python in "
 "depth."
 msgstr ""
+"표준 객체들과 모듈들에 대한 설명은 :ref:`library-index` 에서 찾을 수 있다. "
+":ref:`reference-index` 는 언어에 대한 좀더 형식적인 정의를 제공한다. C 나 C++ 로 "
+"확장하려면 :ref:`extending-index` 와 :ref:`c-api-index` 를 읽으면 된다. 파이썬을 "
+"깊이있게 다룬 책들도 많다."
 
 #: ../Doc/tutorial/index.rst:33
 msgid ""
@@ -76,8 +92,13 @@ msgid ""
 "learn more about the various Python library modules described in :ref"
 ":`library-index`."
 msgstr ""
+"이 자습서는 포괄적이 되려고 시도하지 않는다. 모든 기능들을 다루지는 않는데, 심지어 자주 사용되는 "
+"기능조차도 그렇다. 대신에, 파이썬에의 가장 주목할만한 기능들을 소개하고, 언어의 맛과 스타일에 "
+"대한 전체적인 인상을 제공한다. 이 학습서를 읽은 후에는 파이썬 모듈과 프로그램을 작성할 수 있고, "
+":ref:`library-index` 에 기술된 다양한 파이썬 라이브러리 모듈들에 대해 학습할 수 있는 "
+"준비가 될 것이다."
 
 #: ../Doc/tutorial/index.rst:40
 msgid "The :ref:`glossary` is also worth going through."
-msgstr ""
+msgstr ":ref:`glossary` 또한 훑어볼 만한 가치가 있다."
 

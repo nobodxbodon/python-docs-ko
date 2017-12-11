@@ -68,7 +68,7 @@ msgstr ""
 #: ../Doc/tools/templates/indexcontent.html:8
 #, python-format
 msgid "Welcome! This is the documentation for Python %(release)s."
-msgstr ""
+msgstr "환영합니다! 파이썬 %(release)s 도큐멘테이션의 한국어 번역입니다."
 
 #: ../Doc/tools/templates/indexcontent.html:10
 msgid "Parts of the documentation:"
@@ -88,11 +88,11 @@ msgstr ""
 
 #: ../Doc/tools/templates/indexcontent.html:15
 msgid "Tutorial"
-msgstr ""
+msgstr "자습서"
 
 #: ../Doc/tools/templates/indexcontent.html:16
 msgid "start here"
-msgstr ""
+msgstr "여기에서 시작하세요"
 
 #: ../Doc/tools/templates/indexcontent.html:17
 msgid "Library Reference"
@@ -104,11 +104,11 @@ msgstr ""
 
 #: ../Doc/tools/templates/indexcontent.html:19
 msgid "Language Reference"
-msgstr ""
+msgstr "언어 레퍼런스"
 
 #: ../Doc/tools/templates/indexcontent.html:20
 msgid "describes syntax and language elements"
-msgstr ""
+msgstr "문법과 언어 요소들을 설명합니다"
 
 #: ../Doc/tools/templates/indexcontent.html:21
 msgid "Python Setup and Usage"
@@ -180,19 +180,19 @@ msgstr ""
 
 #: ../Doc/tools/templates/indexcontent.html:44
 msgid "General Index"
-msgstr ""
+msgstr "일반 색인"
 
 #: ../Doc/tools/templates/indexcontent.html:45
 msgid "all functions, classes, terms"
-msgstr ""
+msgstr "모든 함수, 클래스, 용어"
 
 #: ../Doc/tools/templates/indexcontent.html:46
 msgid "Glossary"
-msgstr ""
+msgstr "용어집"
 
 #: ../Doc/tools/templates/indexcontent.html:47
 msgid "the most important terms explained"
-msgstr ""
+msgstr "가장 중요한 용어들을 설명합니다"
 
 #: ../Doc/tools/templates/indexcontent.html:49
 msgid "Search page"
@@ -204,11 +204,11 @@ msgstr ""
 
 #: ../Doc/tools/templates/indexcontent.html:51
 msgid "Complete Table of Contents"
-msgstr ""
+msgstr "완전한 목차"
 
 #: ../Doc/tools/templates/indexcontent.html:52
 msgid "lists all sections and subsections"
-msgstr ""
+msgstr "모든 섹션들과 서브섹션들을 나열합니다"
 
 #: ../Doc/tools/templates/indexcontent.html:56
 msgid "Meta information:"
