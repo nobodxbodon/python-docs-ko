@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-26 18:49+0900\n"
+"POT-Creation-Date: 2017-12-23 11:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -961,11 +961,24 @@ msgstr ""
 msgid ""
 "*idpattern* -- This is the regular expression describing the pattern for "
 "non-braced placeholders (the braces will be added automatically as "
-"appropriate).  The default value is the regular expression "
-"``[_a-z][_a-z0-9]*``."
+"appropriate). The default value is the regular expression ``(?-i:[_a-zA-Z"
+"][_a-zA-Z0-9]*)``."
 msgstr ""
 
-#: ../Doc/library/string.rst:752
+#: ../Doc/library/string.rst:754
+msgid ""
+"Since default *flags* is ``re.IGNORECASE``, pattern ``[a-z]`` can match "
+"with some non-ASCII characters. That's why we use local ``-i`` flag here."
+msgstr ""
+
+#: ../Doc/library/string.rst:757
+msgid ""
+"While *flags* is kept to ``re.IGNORECASE`` for backward compatibility, "
+"you can override it to ``0`` or ``re.IGNORECASE | re.ASCII`` when "
+"subclassing."
+msgstr ""
+
+#: ../Doc/library/string.rst:762
 msgid ""
 "*flags* -- The regular expression flags that will be applied when "
 "compiling the regular expression used for recognizing substitutions.  The"
@@ -974,7 +987,7 @@ msgid ""
 "conventions for verbose regular expressions."
 msgstr ""
 
-#: ../Doc/library/string.rst:760
+#: ../Doc/library/string.rst:770
 msgid ""
 "Alternatively, you can provide the entire regular expression pattern by "
 "overriding the class attribute *pattern*.  If you do this, the value must"
@@ -983,35 +996,35 @@ msgid ""
 "invalid placeholder rule:"
 msgstr ""
 
-#: ../Doc/library/string.rst:766
+#: ../Doc/library/string.rst:776
 msgid ""
 "*escaped* -- This group matches the escape sequence, e.g. ``$$``, in the "
 "default pattern."
 msgstr ""
 
-#: ../Doc/library/string.rst:769
+#: ../Doc/library/string.rst:779
 msgid ""
 "*named* -- This group matches the unbraced placeholder name; it should "
 "not include the delimiter in capturing group."
 msgstr ""
 
-#: ../Doc/library/string.rst:772
+#: ../Doc/library/string.rst:782
 msgid ""
 "*braced* -- This group matches the brace enclosed placeholder name; it "
 "should not include either the delimiter or braces in the capturing group."
 msgstr ""
 
-#: ../Doc/library/string.rst:775
+#: ../Doc/library/string.rst:785
 msgid ""
 "*invalid* -- This group matches any other delimiter pattern (usually a "
 "single delimiter), and it should appear last in the regular expression."
 msgstr ""
 
-#: ../Doc/library/string.rst:780
+#: ../Doc/library/string.rst:790
 msgid "Helper functions"
 msgstr ""
 
-#: ../Doc/library/string.rst:784
+#: ../Doc/library/string.rst:794
 msgid ""
 "Split the argument into words using :meth:`str.split`, capitalize each "
 "word using :meth:`str.capitalize`, and join the capitalized words using "
@@ -1020,4 +1033,13 @@ msgid ""
 "and leading and trailing whitespace are removed, otherwise *sep* is used "
 "to split and join the words."
 msgstr ""
+
+#~ msgid ""
+#~ "*idpattern* -- This is the regular "
+#~ "expression describing the pattern for "
+#~ "non-braced placeholders (the braces will"
+#~ " be added automatically as appropriate)."
+#~ "  The default value is the regular"
+#~ " expression ``[_a-z][_a-z0-9]*``."
+#~ msgstr ""
 

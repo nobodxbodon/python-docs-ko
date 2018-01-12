@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-26 18:49+0900\n"
+"POT-Creation-Date: 2017-12-23 11:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,7 +88,9 @@ msgid "Push the panel to the bottom of the stack."
 msgstr ""
 
 #: ../Doc/library/curses.panel.rst:77
-msgid "Returns true if the panel is hidden (not visible), false otherwise."
+msgid ""
+"Returns ``True`` if the panel is hidden (not visible), ``False`` "
+"otherwise."
 msgstr ""
 
 #: ../Doc/library/curses.panel.rst:82
@@ -126,4 +128,7 @@ msgstr ""
 #: ../Doc/library/curses.panel.rst:119
 msgid "Returns the window object associated with the panel."
 msgstr ""
+
+#~ msgid "Returns true if the panel is hidden (not visible), false otherwise."
+#~ msgstr ""
 

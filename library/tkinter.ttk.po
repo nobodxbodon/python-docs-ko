@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-26 18:49+0900\n"
+"POT-Creation-Date: 2017-12-23 11:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1697,23 +1697,41 @@ msgid ""
 "act according to the following selection methods."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1105
+#: ../Doc/library/tkinter.ttk.rst:1104
+msgid ""
+"Deprecated since version 3.6, will be removed in version 3.8: Using "
+"selection() for changing the selection state is deprecated. Use the "
+"following selection methods instead."
+msgstr ""
+
+#: ../Doc/library/tkinter.ttk.rst:1104
+msgid ""
+"Using ``selection()`` for changing the selection state is deprecated. Use"
+" the following selection methods instead."
+msgstr ""
+
+#: ../Doc/library/tkinter.ttk.rst:1109
 msgid "*items* becomes the new selection."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1110
+#: ../Doc/library/tkinter.ttk.rst:1111 ../Doc/library/tkinter.ttk.rst:1119
+#: ../Doc/library/tkinter.ttk.rst:1127 ../Doc/library/tkinter.ttk.rst:1135
+msgid "*items* can be passed as separate arguments, not just as a single tuple."
+msgstr ""
+
+#: ../Doc/library/tkinter.ttk.rst:1117
 msgid "Add *items* to the selection."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1115
+#: ../Doc/library/tkinter.ttk.rst:1125
 msgid "Remove *items* from the selection."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1120
+#: ../Doc/library/tkinter.ttk.rst:1133
 msgid "Toggle the selection state of each item in *items*."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1125
+#: ../Doc/library/tkinter.ttk.rst:1141
 msgid ""
 "With one argument, returns a dictionary of column/value pairs for the "
 "specified *item*. With two arguments, returns the current value of the "
@@ -1721,18 +1739,18 @@ msgid ""
 "*column* in given *item* to the specified *value*."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1133
+#: ../Doc/library/tkinter.ttk.rst:1149
 msgid ""
 "Bind a callback for the given event *sequence* to the tag *tagname*. When"
 " an event is delivered to an item, the callbacks for each of the item's "
 "tags option are called."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1140
+#: ../Doc/library/tkinter.ttk.rst:1156
 msgid "Query or modify the options for the specified *tagname*."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1142
+#: ../Doc/library/tkinter.ttk.rst:1158
 msgid ""
 "If *kw* is not given, returns a dict of the option settings for "
 "*tagname*. If *option* is specified, returns the value for that *option* "
@@ -1740,30 +1758,30 @@ msgid ""
 "corresponding values for the given *tagname*."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1150
+#: ../Doc/library/tkinter.ttk.rst:1166
 msgid ""
 "If *item* is specified, returns 1 or 0 depending on whether the specified"
 " *item* has the given *tagname*. Otherwise, returns a list of all items "
 "that have the specified tag."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1154
+#: ../Doc/library/tkinter.ttk.rst:1170
 msgid "Availability: Tk 8.6"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1159
+#: ../Doc/library/tkinter.ttk.rst:1175
 msgid "Query or modify horizontal position of the treeview."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1164
+#: ../Doc/library/tkinter.ttk.rst:1180
 msgid "Query or modify vertical position of the treeview."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1170
+#: ../Doc/library/tkinter.ttk.rst:1186
 msgid "Ttk Styling"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1172
+#: ../Doc/library/tkinter.ttk.rst:1188
 msgid ""
 "Each widget in :mod:`ttk` is assigned a style, which specifies the set of"
 " elements making up the widget and how they are arranged, along with "
@@ -1773,41 +1791,41 @@ msgid ""
 "use the method :meth:`Misc.winfo_class` (somewidget.winfo_class())."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1181
+#: ../Doc/library/tkinter.ttk.rst:1197
 msgid ""
 "`Tcl'2004 conference presentation <http://tktable.sourceforge.net/tile"
 "/tile-tcl2004.pdf>`_"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1182
+#: ../Doc/library/tkinter.ttk.rst:1198
 msgid "This document explains how the theme engine works"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1187
+#: ../Doc/library/tkinter.ttk.rst:1203
 msgid "This class is used to manipulate the style database."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1192
+#: ../Doc/library/tkinter.ttk.rst:1208
 msgid "Query or set the default value of the specified option(s) in *style*."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1194
+#: ../Doc/library/tkinter.ttk.rst:1210
 msgid ""
 "Each key in *kw* is an option and each value is a string identifying the "
 "value for that option."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1197
+#: ../Doc/library/tkinter.ttk.rst:1213
 msgid ""
 "For example, to change every default button to be a flat button with some"
 " padding and a different background color::"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1216
+#: ../Doc/library/tkinter.ttk.rst:1232
 msgid "Query or sets dynamic values of the specified option(s) in *style*."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1218
+#: ../Doc/library/tkinter.ttk.rst:1234
 msgid ""
 "Each key in *kw* is an option and each value should be a list or a tuple "
 "(usually) containing statespecs grouped in tuples, lists, or some other "
@@ -1815,11 +1833,11 @@ msgid ""
 "value."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1223
+#: ../Doc/library/tkinter.ttk.rst:1239
 msgid "An example may make it more understandable::"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1241
+#: ../Doc/library/tkinter.ttk.rst:1257
 msgid ""
 "Note that the order of the (states, value) sequences for an option does "
 "matter, if the order is changed to ``[('active', 'blue'), ('pressed', "
@@ -1827,28 +1845,28 @@ msgid ""
 "blue foreground when the widget were in active or pressed states."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1249
+#: ../Doc/library/tkinter.ttk.rst:1265
 msgid "Returns the value specified for *option* in *style*."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1251
+#: ../Doc/library/tkinter.ttk.rst:1267
 msgid ""
 "If *state* is specified, it is expected to be a sequence of one or more "
 "states. If the *default* argument is set, it is used as a fallback value "
 "in case no specification for option is found."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1255
+#: ../Doc/library/tkinter.ttk.rst:1271
 msgid "To check what font a Button uses by default::"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1264
+#: ../Doc/library/tkinter.ttk.rst:1280
 msgid ""
 "Define the widget layout for given *style*. If *layoutspec* is omitted, "
 "return the layout specification for given style."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1267
+#: ../Doc/library/tkinter.ttk.rst:1283
 msgid ""
 "*layoutspec*, if specified, is expected to be a list or some other "
 "sequence type (excluding strings), where each item should be a tuple and "
@@ -1856,13 +1874,13 @@ msgid ""
 "format described in `Layouts`_."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1272
+#: ../Doc/library/tkinter.ttk.rst:1288
 msgid ""
 "To understand the format, see the following example (it is not intended "
 "to do anything useful)::"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1299
+#: ../Doc/library/tkinter.ttk.rst:1315
 msgid ""
 "Create a new element in the current theme, of the given *etype* which is "
 "expected to be either \"image\", \"from\" or \"vsapi\". The latter is "
@@ -1870,64 +1888,64 @@ msgid ""
 "here."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1303
+#: ../Doc/library/tkinter.ttk.rst:1319
 msgid ""
 "If \"image\" is used, *args* should contain the default image name "
 "followed by statespec/value pairs (this is the imagespec), and *kw* may "
 "have the following options:"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1309
+#: ../Doc/library/tkinter.ttk.rst:1325
 msgid "border=padding"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1308
+#: ../Doc/library/tkinter.ttk.rst:1324
 msgid ""
 "padding is a list of up to four integers, specifying the left, top, "
 "right, and bottom borders, respectively."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1313
+#: ../Doc/library/tkinter.ttk.rst:1329
 msgid "height=height"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1312
+#: ../Doc/library/tkinter.ttk.rst:1328
 msgid ""
 "Specifies a minimum height for the element. If less than zero, the base "
 "image's height is used as a default."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1317
+#: ../Doc/library/tkinter.ttk.rst:1333
 msgid "padding=padding"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1316
+#: ../Doc/library/tkinter.ttk.rst:1332
 msgid ""
 "Specifies the element's interior padding. Defaults to border's value if "
 "not specified."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1321
+#: ../Doc/library/tkinter.ttk.rst:1337
 msgid "sticky=spec"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1320
+#: ../Doc/library/tkinter.ttk.rst:1336
 msgid ""
 "Specifies how the image is placed within the final parcel. spec contains "
 "zero or more characters \"n\", \"s\", \"w\", or \"e\"."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1325
+#: ../Doc/library/tkinter.ttk.rst:1341
 msgid "width=width"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1324
+#: ../Doc/library/tkinter.ttk.rst:1340
 msgid ""
 "Specifies a minimum width for the element. If less than zero, the base "
 "image's width is used as a default."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1327
+#: ../Doc/library/tkinter.ttk.rst:1343
 msgid ""
 "If \"from\" is used as the value of *etype*, :meth:`element_create` will "
 "clone an existing element. *args* is expected to contain a themename, "
@@ -1936,19 +1954,19 @@ msgid ""
 "will be used. *kw* is discarded."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1337
+#: ../Doc/library/tkinter.ttk.rst:1353
 msgid "Returns the list of elements defined in the current theme."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1342
+#: ../Doc/library/tkinter.ttk.rst:1358
 msgid "Returns the list of *elementname*'s options."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1347
+#: ../Doc/library/tkinter.ttk.rst:1363
 msgid "Create a new theme."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1349
+#: ../Doc/library/tkinter.ttk.rst:1365
 msgid ""
 "It is an error if *themename* already exists. If *parent* is specified, "
 "the new theme will inherit styles, elements and layouts from the parent "
@@ -1956,13 +1974,13 @@ msgid ""
 "syntax used for :meth:`theme_settings`."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1357
+#: ../Doc/library/tkinter.ttk.rst:1373
 msgid ""
 "Temporarily sets the current theme to *themename*, apply specified "
 "*settings* and then restore the previous theme."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1360
+#: ../Doc/library/tkinter.ttk.rst:1376
 msgid ""
 "Each key in *settings* is a style and each value may contain the keys "
 "'configure', 'map', 'layout' and 'element create' and they are expected "
@@ -1971,26 +1989,26 @@ msgid ""
 ":meth:`Style.element_create` respectively."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1366
+#: ../Doc/library/tkinter.ttk.rst:1382
 msgid "As an example, let's change the Combobox for the default theme a bit::"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1394
+#: ../Doc/library/tkinter.ttk.rst:1410
 msgid "Returns a list of all known themes."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1399
+#: ../Doc/library/tkinter.ttk.rst:1415
 msgid ""
 "If *themename* is not given, returns the theme in use.  Otherwise, sets "
 "the current theme to *themename*, refreshes all widgets and emits a "
 "<<ThemeChanged>> event."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1405
+#: ../Doc/library/tkinter.ttk.rst:1421
 msgid "Layouts"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1407
+#: ../Doc/library/tkinter.ttk.rst:1423
 msgid ""
 "A layout can be just ``None``, if it takes no options, or a dict of "
 "options specifying how to arrange the element. The layout mechanism uses "
@@ -1998,41 +2016,41 @@ msgid ""
 "cavity, each element is allocated a parcel. Valid options/values are:"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1416
+#: ../Doc/library/tkinter.ttk.rst:1432
 msgid "side: whichside"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1414
+#: ../Doc/library/tkinter.ttk.rst:1430
 msgid ""
 "Specifies which side of the cavity to place the element; one of top, "
 "right, bottom or left. If omitted, the element occupies the entire "
 "cavity."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1419
+#: ../Doc/library/tkinter.ttk.rst:1435
 msgid "sticky: nswe"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1419
+#: ../Doc/library/tkinter.ttk.rst:1435
 msgid "Specifies where the element is placed inside its allocated parcel."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1424
+#: ../Doc/library/tkinter.ttk.rst:1440
 msgid "unit: 0 or 1"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1422
+#: ../Doc/library/tkinter.ttk.rst:1438
 msgid ""
 "If set to 1, causes the element and all of its descendants to be treated "
 "as a single element for the purposes of :meth:`Widget.identify` et al. "
 "It's used for things like scrollbar thumbs with grips."
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1429
+#: ../Doc/library/tkinter.ttk.rst:1445
 msgid "children: [sublayout... ]"
 msgstr ""
 
-#: ../Doc/library/tkinter.ttk.rst:1427
+#: ../Doc/library/tkinter.ttk.rst:1443
 msgid ""
 "Specifies a list of elements to place inside the element. Each element is"
 " a tuple (or other sequence type) where the first item is the layout "

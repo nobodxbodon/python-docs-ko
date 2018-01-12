@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-26 18:49+0900\n"
+"POT-Creation-Date: 2017-12-23 11:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -259,7 +259,7 @@ msgstr ""
 #: ../Doc/library/asyncio-task.rst:218
 msgid ""
 "Callbacks registered with :meth:`add_done_callback` are always called via"
-" the event loop's :meth:`~AbstractEventLoop.call_soon_threadsafe`."
+" the event loop's :meth:`~AbstractEventLoop.call_soon`."
 msgstr ""
 
 #: ../Doc/library/asyncio-task.rst:221
@@ -840,4 +840,10 @@ msgstr ""
 #: ../Doc/library/asyncio-task.rst:725
 msgid "If the wait is cancelled, the future *fut* is now also cancelled."
 msgstr ""
+
+#~ msgid ""
+#~ "Callbacks registered with :meth:`add_done_callback`"
+#~ " are always called via the event "
+#~ "loop's :meth:`~AbstractEventLoop.call_soon_threadsafe`."
+#~ msgstr ""
 

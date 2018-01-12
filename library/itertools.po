@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python 3.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-26 18:49+0900\n"
+"POT-Creation-Date: 2017-12-23 11:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,11 +221,11 @@ msgid ":func:`groupby`"
 msgstr ""
 
 #: ../Doc/library/itertools.rst:56
-msgid "iterable[, keyfunc]"
+msgid "iterable[, key]"
 msgstr ""
 
 #: ../Doc/library/itertools.rst:56
-msgid "sub-iterators grouped by value of keyfunc(v)"
+msgid "sub-iterators grouped by value of key(v)"
 msgstr ""
 
 #: ../Doc/library/itertools.rst:57
@@ -770,10 +770,16 @@ msgid ""
 "for-loops and :term:`generator`\\s which incur interpreter overhead."
 msgstr ""
 
-#: ../Doc/library/itertools.rst:861
+#: ../Doc/library/itertools.rst:862
 msgid ""
 "Note, many of the above recipes can be optimized by replacing global "
 "lookups with local variables defined as default values.  For example, the"
 " *dotproduct* recipe can be written as::"
 msgstr ""
+
+#~ msgid "iterable[, keyfunc]"
+#~ msgstr ""
+
+#~ msgid "sub-iterators grouped by value of keyfunc(v)"
+#~ msgstr ""
 
