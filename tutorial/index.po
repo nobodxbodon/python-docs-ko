@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../Doc/tutorial/index.rst:5
 msgid "The Python Tutorial"
-msgstr "파이썬 자습서"
+msgstr "测试python入门教程"
 
 #: ../Doc/tutorial/index.rst:7
 msgid ""
